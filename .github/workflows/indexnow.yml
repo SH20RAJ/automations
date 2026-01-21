@@ -26,3 +26,6 @@ jobs:
 
       - name: Run IndexNow submission for unstory.app
         run: node src/unstory-indexnow.js
+
+      - name: Run IndexNow submission for ai-agents.30tools.com
+        run: node src/ai-agents-indexnow.js
