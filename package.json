@@ -4,9 +4,7 @@
   "description": "Automated IndexNow submission for 30tools.com",
   "main": "src/indexnow.js",
   "scripts": {
-    "start": "node src/indexnow.js",
-    "start:unstory": "node src/unstory-indexnow.js",
-    "start:ai-agents": "node src/ai-agents-indexnow.js"
+    "start": "node src/main.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
